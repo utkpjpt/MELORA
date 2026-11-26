@@ -3,7 +3,7 @@
   <h1>MELORA</h1>
   <p><strong>Version 1 — An open-source Android music player with a Liquid Glass interface, synced lyrics, and listening insights.</strong></p>
   <p>
-    <a href="https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-arm64.apk">
+    <a href="https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-universal.apk">
       <img src="https://img.shields.io/badge/Download_APK-Version_1-E53935?style=for-the-badge&logo=android&logoColor=white" alt="Download MELORA APK">
     </a>
     <img src="https://img.shields.io/badge/Version-1-5268D8?style=for-the-badge&logo=android&logoColor=white" alt="MELORA Version 1">
@@ -16,12 +16,17 @@
 
 ## Download
 
-Grab the latest Android APK directly from GitHub Releases:
+Grab the right Android APK directly from GitHub Releases:
 
-- **Direct APK (`arm64-v8a`, Version 1):** [MELORA-v1-arm64.apk](https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-arm64.apk)
+| Build | Target Devices | Download |
+| --- | --- | --- |
+| **Universal (`arm64-v8a` + `x86_64`)** | General modern Android mobile devices & tablets *(Recommended)* | [MELORA-v1-universal.apk](https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-universal.apk) |
+| **ARM64 (`arm64-v8a`)** | Modern 64-bit ARM phones (smaller download) | [MELORA-v1-arm64.apk](https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-arm64.apk) |
+| **ARMv7 (`armeabi-v7a`)** | 32-bit / older ARM Android devices | [MELORA-v1-armeabi-v7a.apk](https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-armeabi-v7a.apk) |
+
 - **All Releases:** [github.com/utkpjpt/MELORA/releases](https://github.com/utkpjpt/MELORA/releases)
 
-> Requires **Android 8.0+** (`arm64-v8a` device). Allow installation from unknown sources when sideloading the APK.
+> Requires **Android 8.0+**. Allow installation from unknown sources when sideloading the APK.
 
 ## Screenshots
 
