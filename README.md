@@ -3,6 +3,9 @@
   <h1>MELORA</h1>
   <p><strong>Version 1 — An open-source Android music player with a Liquid Glass interface, synced lyrics, and listening insights.</strong></p>
   <p>
+    <a href="https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-arm64.apk">
+      <img src="https://img.shields.io/badge/Download_APK-Version_1-E53935?style=for-the-badge&logo=android&logoColor=white" alt="Download MELORA APK">
+    </a>
     <img src="https://img.shields.io/badge/Version-1-5268D8?style=for-the-badge&logo=android&logoColor=white" alt="MELORA Version 1">
     <img src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 8.0 and later">
     <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge" alt="GPL-3.0 license">
@@ -10,6 +13,34 @@
 </div>
 
 **MELORA** (`com.melora.music`) brings music discovery, streaming playback, synchronized word-level lyrics, and listening analytics together in one Android app built with Kotlin, Jetpack Compose, and Media3.
+
+## Download
+
+Grab the latest Android APK directly from GitHub Releases:
+
+- **Direct APK (`arm64-v8a`, Version 1):** [MELORA-v1-arm64.apk](https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-arm64.apk)
+- **All Releases:** [github.com/utkpjpt/MELORA/releases](https://github.com/utkpjpt/MELORA/releases)
+
+> Requires **Android 8.0+** (`arm64-v8a` device). Allow installation from unknown sources when sideloading the APK.
+
+## Screenshots
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><img src="assets/screenshots/home.jpg" width="200" alt="MELORA Home"><br><sub><b>Home</b></sub></td>
+    <td align="center"><img src="assets/screenshots/player.jpg" width="200" alt="MELORA Now Playing"><br><sub><b>Now Playing</b></sub></td>
+    <td align="center"><img src="assets/screenshots/library.jpg" width="200" alt="MELORA Library"><br><sub><b>Library</b></sub></td>
+    <td align="center"><img src="assets/screenshots/search.jpg" width="200" alt="MELORA Search"><br><sub><b>Search</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/screenshots/stats.jpg" width="200" alt="MELORA Stats"><br><sub><b>Stats</b></sub></td>
+    <td align="center"><img src="assets/screenshots/appearance.jpg" width="200" alt="MELORA Appearance"><br><sub><b>Appearance</b></sub></td>
+    <td align="center"><img src="assets/screenshots/player-lyrics.jpg" width="200" alt="MELORA Player & Lyrics Settings"><br><sub><b>Player & Lyrics</b></sub></td>
+    <td align="center"><img src="assets/screenshots/about.jpg" width="200" alt="About MELORA"><br><sub><b>About</b></sub></td>
+  </tr>
+</table>
+</div>
 
 ## Features
 
