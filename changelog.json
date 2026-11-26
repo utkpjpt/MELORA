@@ -1,0 +1,14 @@
+{
+  "description": "MELORA Version 1",
+  "image": "",
+  "changelog": [
+    {
+      "title": "MELORA Version 1",
+      "items": [
+        "Initial MELORA release with Liquid Glass UI, fixed glass-effect active lyric highlight, and calibrated lyric glow.",
+        "Redesigned Listening Stats page with overview metrics, top track spotlight, and ranked track breakdowns.",
+        "Includes Discord Rich Presence, Last.fm scrobbling, and Make Your Own DIY theme designer."
+      ]
+    }
+  ]
+}
