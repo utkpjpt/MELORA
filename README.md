@@ -20,7 +20,7 @@ Grab the right Android APK directly from GitHub Releases:
 
 | Build | Target Devices | Download |
 | --- | --- | --- |
-| **Universal (`arm64-v8a` + `x86_64`)** | General modern Android mobile devices & tablets *(Recommended)* | [MELORA-v1-universal.apk](https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-universal.apk) |
+| **Universal (`arm64-v8a` + `armeabi-v7a` + `x86_64`)** | General 64-bit & 32-bit Android phones and tablets *(Recommended)* | [MELORA-v1-universal.apk](https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-universal.apk) |
 | **ARM64 (`arm64-v8a`)** | Modern 64-bit ARM phones (smaller download) | [MELORA-v1-arm64.apk](https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-arm64.apk) |
 | **ARMv7 (`armeabi-v7a`)** | 32-bit / older ARM Android devices | [MELORA-v1-armeabi-v7a.apk](https://github.com/utkpjpt/MELORA/releases/latest/download/MELORA-v1-armeabi-v7a.apk) |
 

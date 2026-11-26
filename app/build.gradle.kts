@@ -85,10 +85,10 @@ android {
         create("universal") {
             dimension = "abi"
             buildConfigField("String", "ARCHITECTURE", "\"universal\"")
-            // 64-bit only: MMKV (native KV store) ships no 32-bit binaries, so a
-            // 32-bit slice would crash at load time. armeabi/x86 flavors removed.
+            // Use mmkv-legacy (1.3.x) so a single universal APK supports both
+            // 64-bit (arm64-v8a, x86_64) and 32-bit (armeabi-v7a) phones cleanly.
             ndk {
-                abiFilters.addAll(listOf("arm64-v8a", "x86_64"))
+                abiFilters.addAll(listOf("arm64-v8a", "armeabi-v7a", "x86_64"))
             }
         }
         create("arm64") {
@@ -128,6 +128,9 @@ android {
             storePassword = localProperties.getProperty("STORE_PASSWORD") ?: System.getenv("STORE_PASSWORD")
             keyAlias = localProperties.getProperty("KEY_ALIAS") ?: System.getenv("KEY_ALIAS")
             keyPassword = localProperties.getProperty("KEY_PASSWORD") ?: System.getenv("KEY_PASSWORD")
+            enableV1Signing = true
+            enableV2Signing = true
+            enableV3Signing = true
         }
         getByName("debug") {
             keyAlias = "androiddebugkey"
@@ -278,7 +281,7 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.datastore)
-    "universalImplementation"(libs.mmkv)
+    "universalImplementation"(libs.mmkv.legacy)
     "arm64Implementation"(libs.mmkv)
     "x86_64Implementation"(libs.mmkv)
     "arm32Implementation"(libs.mmkv.legacy)

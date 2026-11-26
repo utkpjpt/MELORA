@@ -35,8 +35,10 @@
     <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
 
-    <!-- Microphone feature for music recognition (not required) -->
+    <!-- Microphone, Bluetooth, and Wi-Fi features (not strictly required) -->
     <uses-feature android:name="android.hardware.microphone" android:required="false" />
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false" />
+    <uses-feature android:name="android.hardware.wifi" android:required="false" />
 
     <!-- Required for installing downloaded updates. -->
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
